@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.cont_padre{
+
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    gap: 20px;
+
+}
+.info{
+    text-align: center;
+}
+
+.platos{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.plato{
+    width: 200px;
+    height: 300px;
+    padding: 25px;
+    color: aliceblue;
+    background-color: rgb(26, 26, 26);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+
+}
+.plato img{
+    width: 100px;
+    height: 100px;
+}
+.plato a{
+    text-decoration: none;
+    padding: 10px 25px;
+    color: white;
+    background-color: rgb(93, 57, 11);
+    border-radius: 25px;
+}
